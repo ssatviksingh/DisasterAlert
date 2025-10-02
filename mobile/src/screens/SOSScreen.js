@@ -12,7 +12,7 @@ export default function SOSScreen() {
         };
 
         try {
-            const res = await fetch('http://YOUR_COMPUTER_IP:4000/sos', {
+            const res = await fetch('http://192.168.0.102:4000/sos', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(payload)
